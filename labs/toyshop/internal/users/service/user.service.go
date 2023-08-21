@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/jwkidd3/golang-microservices/labs/toyshop/internal/users"
-	"github.com/jwkidd3/golang-microservices/labs/toyshop/internal/users/auth"
+	"<go module name>/internal/users"
+	"<go module name>/internal/users/auth"
 )
 
 var usersService *UsersService
