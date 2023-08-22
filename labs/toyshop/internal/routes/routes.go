@@ -3,8 +3,8 @@ package routes
 import (
 	"net/http"
 
-	usersService "<go module name>/internal/users/service"
 	"github.com/gorilla/mux"
+	usersService "jwkidd3/internal/users/service"
 )
 
 func Handlers() *mux.Router {
