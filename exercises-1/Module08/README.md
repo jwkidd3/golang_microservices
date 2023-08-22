@@ -173,8 +173,6 @@ s := r.PathPrefix("/auth").Subrouter()
 
 2. add the Jwt middleware you created to intercept the calls and check the validity of the users 
 
-1. add the Jwt middleware you created to intercept the calls and check the validity of the users 
-
 ```bash
 s.Use(jv.JwtVerify)
 ```
